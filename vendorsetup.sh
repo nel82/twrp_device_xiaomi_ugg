@@ -14,5 +14,8 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_ugg-userdebug
-add_lunch_combo omni_ugg-eng
+for var in user debug eng
+do
+add_lunch_combo omni_ugg-$var
+done
+
